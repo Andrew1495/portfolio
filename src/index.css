@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1F1E1E;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  color:  #88BE96;
+}
+
+.hyperlink{
+ color: rgb(220 190 145) ;
+ text-decoration: none;
+font-size: medium;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+
+.css-usiu4z-MuiStack-root{
+margin-top: 5px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: #1F1E1E;
+  color:  #88BE96;
+}
+
+.project-screenshot{
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 3px;
+  color: black;
+}
+
+.project-screenshot:hover{
+  filter: sepia(50%);
+  border-color: rgb(245, 202, 98);
+}
+
+
+.dev-icons{
+  color: #fefefe;
+  font-size: 5rem;
+}
+
+
+.header-icons{
+  align-self: center;
+  text-align: center;
+  background-color: #323233;
+  width: fit-content;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border-width: 3px;
+  border-style: solid;
+  color: black;
+  width: 75%;
+}
+
+.header-icons > h1{
+  color:  #88BE96;
+  text-shadow: 1px 2px black;
+
+}
+.header-icons > h2{
+  color:  #88BE96;
+  text-shadow: 1px 2px black;
+}
