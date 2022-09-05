@@ -19,11 +19,14 @@ p{
 }
 
 .hyperlink{
- color: rgb(220 190 145) ;
  text-decoration: none;
 font-size: medium;
 margin-left: 1rem;
 margin-right: 1rem;
+}
+
+.hyperlink>button{
+  color: rgb(220 190 145) ; 
 }
 
 

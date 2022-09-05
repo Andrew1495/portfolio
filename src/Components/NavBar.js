@@ -60,7 +60,7 @@ const NavBar = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                  <Link className='hyperlink' to={`/${page.url}`}>{page.title}</Link> 
+                  <Link className='hyperlink' to={`/portfolio/${page.url}`}>{page.title}</Link> 
                     </Typography>
                 </MenuItem>
               ))}
@@ -69,14 +69,18 @@ const NavBar = () => {
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              <Link className='hyperlink' to={`/portfolio/${page.url}`}>
               <Button
+              
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: '#88BE96', display: 'block' ,}}
                 className='dropdown-box'
+              
               >
-                <Link className='hyperlink' to={`/portfolio/${page.url}`}>{page.title}</Link> 
+               {page.title}
               </Button>
+              </Link> 
             ))}
           </Box>
     </AppBar>
