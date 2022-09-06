@@ -179,8 +179,13 @@ ul{
     border-color: rgb(220 190 145) ;
     border-width: 3px;
     margin-left: 20px;
-    width: 60%;
-    height: 500px;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
 }
 
@@ -216,3 +221,10 @@ p{
     color: #fefefe;
 }
 
+.video-container{
+    padding-top: 56.25%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}

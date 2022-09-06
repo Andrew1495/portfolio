@@ -95,8 +95,9 @@ Finishing it off with implanting the system into our frontend and then integrati
 <p> We had originally planned out to have a live stats page, which we later called OurStats. The idea was to have live updates on environmental topics through either live data coming from external api's, represented by graphs or relevant articles embedded on the page. Due to time restrictions and finial limits we did not have enough time to research available api's and find the information we where looking for  </p>
 
             </div>
-            <iframe className="video-box"  src="https://www.youtube-nocookie.com/embed/07Fje-8tbF0?autoplay=1&mute=1&controls=1&playlist=07Fje-8tbF0&loop=1&modestbranding=1" title="OurWorldVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
-          
+            <div className='video-container'>
+                <iframe className="video-box"  src="https://www.youtube-nocookie.com/embed/07Fje-8tbF0?autoplay=1&mute=1&controls=1&playlist=07Fje-8tbF0&loop=1&modestbranding=1" title="OurWorldVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+            </div>
 
         </div>
     </div>

@@ -2,9 +2,11 @@ import Stack from '@mui/material/Stack';
 import {Carousel} from '3d-react-carousal';
 import { Link } from 'react-router-dom';
 import { DiPython, DiJavascript1, DiCss3, DiHtml5, DiReact} from "react-icons/di";
+import { useState } from 'react';
 
 
 const HomePage = () => {
+    const [timer, setTimer] = useState(10000)
 
     let slides = [
         <Link to='/portfolio/EducationApp'> <img className='project-screenshot' src="https://i.imgur.com/yOgs968.png" alt="2" /> </Link> ,
@@ -13,6 +15,12 @@ const HomePage = () => {
         <Link to='/portfolio/BucketList'> <img className='project-screenshot' src="https://i.imgur.com/ge8OePu.png" alt="4" /> </Link>  ,
         <Link to='/portfolio/WeatherApp'> <img  className='project-screenshot' src="https://i.imgur.com/Ty9ZiPG.jpg"  alt="4" /> </Link>  ,
     ]
+
+
+    const callback = function(){
+        setTimer(10000)
+    }
+
 
     return(
 <Stack
@@ -30,7 +38,8 @@ const HomePage = () => {
         </div>
     </div>
 
-    <Carousel slides={slides} autoplay={true} interval={9000}/>
+
+    <Carousel slides={slides} autoplay={true} interval={timer}  onSlideChange={callback}/>
 
 </Stack>
         )
