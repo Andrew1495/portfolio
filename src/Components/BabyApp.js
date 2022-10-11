@@ -30,7 +30,7 @@ const BabyApp= () => {
 
            
            <div className='brief-box'>
-           <h2 className='project-title'>OurWorld <a target="_blank" href="https://github.com/Andrew1495/BabyAppFrontEnd"><DiGithubBadge className='title-logo'/></a> </h2>
+           <h2 className='project-title'>Wah-Wah <a target="_blank" href="https://github.com/Andrew1495/BabyAppFrontEnd"><DiGithubBadge className='title-logo'/></a> </h2>
                 <div className='upper-wrap'>
                 <div className='team-box'>
                     <h3>Team:</h3>
