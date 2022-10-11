@@ -11,15 +11,15 @@ const EducationApp= () => {
 
            
            <div className='brief-box'>
-           <h2 className='project-title'>OurWorld <a href=""><DiGithubBadge className='title-logo'/></a> </h2>
+           <h2 className='project-title'>OurWorld <a target="_blank" href="https://github.com/Andrew1495/educationapp"><DiGithubBadge className='title-logo'/></a> </h2>
                 <div className='upper-wrap'>
                 <div className='team-box'>
                     <h3>Team:</h3>
                     <ul>
-                        <li>- Carly Officer <a className='team-git' href=""><DiGithubBadge/></a> </li>
-                        <li>- Jacob Greenhalgh <a  className='team-git' href=""><DiGithubBadge/></a> </li>
-                        <li>- Jack Knowles <a className='team-git' href=""><DiGithubBadge/></a> </li>
-                        <li>- Myself <a  className='team-git' href=""><DiGithubBadge/></a> </li>
+                        <li>- Carly Officer <a  target="_blank" className='team-git' href="https://github.com/CarlyCoding"><DiGithubBadge/></a> </li>
+                        <li>- Jacob Greenhalgh <a  target="_blank" className='team-git' href="https://github.com/jakegreenhalgh"><DiGithubBadge/></a> </li>
+                        <li>- Jack Knowles <a target="_blank" className='team-git' href="https://github.com/knowles28"><DiGithubBadge/></a> </li>
+                        <li>- Myself <a target="_blank"  className='team-git' href="https://github.com/Andrew1495"><DiGithubBadge/></a> </li>
                     </ul>
                 </div>
                 <div className='icon-box'>
@@ -89,18 +89,19 @@ For this i had to fist create a user table on MongoDb then handle our request us
 Finishing it off with implanting the system into our frontend and then integrating existing features to use the new login system.
  </p>
 
- <h3>What i would do different</h3>
+ <h3>What I would do different</h3>
  <p>Although the login system functions it does not have any form of authentication
  and if we had more time as a group it would have been nice to look into that.</p>
 <p> We had originally planned out to have a live stats page, which we later called OurStats. The idea was to have live updates on environmental topics through either live data coming from external api's, represented by graphs or relevant articles embedded on the page. Due to time restrictions and finial limits we did not have enough time to research available api's and find the information we where looking for  </p>
 
             </div>
-            <div className='video-container'>
-                <iframe className="video-box"  src="https://www.youtube-nocookie.com/embed/07Fje-8tbF0?autoplay=1&mute=1&controls=1&playlist=07Fje-8tbF0&loop=1&modestbranding=1" title="OurWorldVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+    
+                    <iframe className='video-box' id={Date.now()} src="https://www.youtube-nocookie.com/embed/07Fje-8tbF0?autoplay=1&mute=1&controls=1&playlist=07Fje-8tbF0&loop=1&modestbranding=1" title="OurWorldVideo"  height="500px"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+                </div>
             </div>
+            
 
-        </div>
-    </div>
+
     )
 }
 

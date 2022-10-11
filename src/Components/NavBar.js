@@ -10,8 +10,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 import { useTheme } from '@emotion/react';
 
-const pages = [{title:'Home', url:''},{title:'Bucket List', url:'BucketList'},{title:'Weather App', url:'WeatherApp'},{title:'Education App', url:'EducationApp'}, {title: 'Me', url:'About'}];
-
+const pages = [{title:'Home', url:''},{title:'Bucket List', url:'BucketList'},{title:'Weather App', url:'WeatherApp'},{title:'Education App', url:'EducationApp'}, {title: 'Wah-Wah', url: 'BabyApp'}];
 
 const NavBar = () => {
   const theme = useTheme()

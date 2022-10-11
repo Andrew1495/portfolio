@@ -1,8 +1,10 @@
 import Stack from '@mui/material/Stack';
 import {Carousel} from '3d-react-carousal';
 import { Link } from 'react-router-dom';
-import { DiPython, DiJavascript1, DiCss3, DiHtml5, DiReact} from "react-icons/di";
+import { DiPython, DiJavascript1, DiCss3, DiHtml5, DiReact, DiJava} from "react-icons/di";
 import { useState } from 'react';
+import {SiSpring} from 'react-icons/si'
+
 
 
 const HomePage = () => {
@@ -14,6 +16,7 @@ const HomePage = () => {
         <Link to='/portfolio/BucketList'><img className='project-screenshot' src="https://i.imgur.com/rbXZhjy.jpg"  alt="3" />  </Link> ,
         <Link to='/portfolio/BucketList'> <img className='project-screenshot' src="https://i.imgur.com/ge8OePu.png" alt="4" /> </Link>  ,
         <Link to='/portfolio/WeatherApp'> <img  className='project-screenshot' src="https://i.imgur.com/Ty9ZiPG.jpg"  alt="4" /> </Link>  ,
+        <Link to='/portfolio/BabyApp'> <img  className='project-screenshot' src="https://i.imgur.com/quKz74x.png"  alt="4" /> </Link>  ,
     ]
 
 
@@ -34,13 +37,12 @@ const HomePage = () => {
         <h1>Andrew Fairley</h1>
         <h2>Software Developer</h2>
         <div className='dev-icons'>
-            <DiPython/> <DiJavascript1/> <DiCss3/> <DiHtml5/> <DiReact/>
+            <DiPython/> <DiJavascript1/> <DiCss3/> <DiHtml5/> <DiReact/> <DiJava/> <SiSpring/>      
         </div>
     </div>
 
 
     <Carousel slides={slides} autoplay={true} interval={timer}  onSlideChange={callback}/>
-
 </Stack>
         )
 }

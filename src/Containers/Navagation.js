@@ -4,7 +4,7 @@ import HomePage from "./HomePage";
 import EducationApp from "../Components/EducationApp";
 import BucketList from "../Components/BucketList";
 import WeatherApp from "../Components/WeatherApp";
-import About from "../Components/About";
+import BabyApp from "../Components/BabyApp";
 
 
 function Navigation() {
@@ -21,7 +21,7 @@ return (
             <Route exact path="/portfolio/EducationApp" element={< EducationApp/>} />
             <Route exact path="/portfolio/BucketList" element={< BucketList/>} />
             <Route exact path="/portfolio/WeatherApp" element={< WeatherApp/>} />
-            <Route exact path="/portfolio/About" element={< About/>} />
+            <Route exact path="/portfolio/BabyApp" element={<BabyApp/>}/>
             <Route exact path="*"></Route>
         </ Routes>
 
